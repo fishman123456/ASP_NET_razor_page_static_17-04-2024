@@ -1,0 +1,19 @@
+﻿@page
+@model ASP_NET_razor_page_static_17_04_2024.page.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static files example</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1 class="header">Welcome to Static Files Example</h1>
+
+    <p class="property">До нового года осталось: @Model.ServerStartTime </p>
+    <p class="property">Текущее время: @DateTime.UtcNow </p>
+
+</body>
+</html>
